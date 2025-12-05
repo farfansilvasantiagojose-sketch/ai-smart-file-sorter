@@ -1,0 +1,14 @@
+# .gitignore
+
+# Python y PyCharm
+__pycache__/
+*.py[cod]
+.idea/
+venv/
+.env
+
+# Archivos de sistema
+.DS_Store
+
+# Ignorar la carpeta de pruebas (¡Importante!)
+Downloads_Test/

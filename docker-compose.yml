@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  file-sorter:
+    build: .
+    container_name: ai_file_sorter
+    volumes:
+      - ./Downloads_Test:/app/monitored_folder
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
